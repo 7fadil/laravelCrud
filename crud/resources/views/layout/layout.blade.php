@@ -12,6 +12,8 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('dist/css/bootstrap.min.css') }}">
 
+        <script src="{{ asset('jquery/jquery.min.js') }}"></script>
+
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
@@ -22,5 +24,7 @@
         <div class="container">
             @yield('myContent')
         </div>
+
+        <script src="{{ asset('dist/js/bootstrap.bundle.min.js') }}"></script>
     </body>
 </html>

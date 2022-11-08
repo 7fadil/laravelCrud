@@ -15,3 +15,4 @@ use App\Http\Controllers\StudentController;
 */
 
 Route::get('/student-create', [StudentController::class, 'index'])->name('student.create');
+Route::post('student-store', [StudentController::class, 'store'])->name('student.store');
